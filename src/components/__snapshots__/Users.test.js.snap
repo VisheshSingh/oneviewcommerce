@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders withour crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Users
+    users={
+      Array [
+        Object {
+          "address": Object {
+            "city": "NYC",
+          },
+          "company": Object {
+            "name": "GMC",
+          },
+          "email": "JOhndoe@gmail.com",
+          "id": 1,
+          "name": "John DOe",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+            <th>
+              ID
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Email
+            </th>
+            <th>
+              City
+            </th>
+            <th>
+              Company
+            </th>
+          </tr>
+        </thead>,
+        <tbody>
+          <tr>
+            <th>
+              1
+            </th>
+            <td>
+              John DOe
+            </td>
+            <td>
+              JOhndoe@gmail.com
+            </td>
+            <td>
+              NYC
+            </td>
+            <td>
+              GMC
+            </td>
+          </tr>
+        </tbody>,
+      ],
+      "responsiveTag": "div",
+      "striped": true,
+      "tag": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+              ID
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Email
+            </th>
+            <th>
+              City
+            </th>
+            <th>
+              Company
+            </th>
+          </tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                ID
+              </th>,
+              <th>
+                Name
+              </th>,
+              <th>
+                Email
+              </th>,
+              <th>
+                City
+              </th>,
+              <th>
+                Company
+              </th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ID",
+              },
+              "ref": null,
+              "rendered": "ID",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Email",
+              },
+              "ref": null,
+              "rendered": "Email",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "City",
+              },
+              "ref": null,
+              "rendered": "City",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Company",
+              },
+              "ref": null,
+              "rendered": "Company",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <th>
+                1
+              </th>
+              <td>
+                John DOe
+              </td>
+              <td>
+                JOhndoe@gmail.com
+              </td>
+              <td>
+                NYC
+              </td>
+              <td>
+                GMC
+              </td>
+            </tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  1
+                </th>,
+                <td>
+                  John DOe
+                </td>,
+                <td>
+                  JOhndoe@gmail.com
+                </td>,
+                <td>
+                  NYC
+                </td>,
+                <td>
+                  GMC
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1,
+                },
+                "ref": null,
+                "rendered": 1,
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "John DOe",
+                },
+                "ref": null,
+                "rendered": "John DOe",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "JOhndoe@gmail.com",
+                },
+                "ref": null,
+                "rendered": "JOhndoe@gmail.com",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NYC",
+                },
+                "ref": null,
+                "rendered": "NYC",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "GMC",
+                },
+                "ref": null,
+                "rendered": "GMC",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+              <th>
+                ID
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Company
+              </th>
+            </tr>
+          </thead>,
+          <tbody>
+            <tr>
+              <th>
+                1
+              </th>
+              <td>
+                John DOe
+              </td>
+              <td>
+                JOhndoe@gmail.com
+              </td>
+              <td>
+                NYC
+              </td>
+              <td>
+                GMC
+              </td>
+            </tr>
+          </tbody>,
+        ],
+        "responsiveTag": "div",
+        "striped": true,
+        "tag": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                ID
+              </th>
+              <th>
+                Name
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                City
+              </th>
+              <th>
+                Company
+              </th>
+            </tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  ID
+                </th>,
+                <th>
+                  Name
+                </th>,
+                <th>
+                  Email
+                </th>,
+                <th>
+                  City
+                </th>,
+                <th>
+                  Company
+                </th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ID",
+                },
+                "ref": null,
+                "rendered": "ID",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Name",
+                },
+                "ref": null,
+                "rendered": "Name",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email",
+                },
+                "ref": null,
+                "rendered": "Email",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "City",
+                },
+                "ref": null,
+                "rendered": "City",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Company",
+                },
+                "ref": null,
+                "rendered": "Company",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <th>
+                  1
+                </th>
+                <td>
+                  John DOe
+                </td>
+                <td>
+                  JOhndoe@gmail.com
+                </td>
+                <td>
+                  NYC
+                </td>
+                <td>
+                  GMC
+                </td>
+              </tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    1
+                  </th>,
+                  <td>
+                    John DOe
+                  </td>,
+                  <td>
+                    JOhndoe@gmail.com
+                  </td>,
+                  <td>
+                    NYC
+                  </td>,
+                  <td>
+                    GMC
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1,
+                  },
+                  "ref": null,
+                  "rendered": 1,
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "John DOe",
+                  },
+                  "ref": null,
+                  "rendered": "John DOe",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JOhndoe@gmail.com",
+                  },
+                  "ref": null,
+                  "rendered": "JOhndoe@gmail.com",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NYC",
+                  },
+                  "ref": null,
+                  "rendered": "NYC",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "GMC",
+                  },
+                  "ref": null,
+                  "rendered": "GMC",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
