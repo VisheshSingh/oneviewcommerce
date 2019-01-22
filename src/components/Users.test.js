@@ -16,7 +16,11 @@ const users = [
     }
 ]
 
-it('renders withour crashing', () => {
+it('renders without crashing', () => {
     expect(shallow(<Users users={users}/>)).toMatchSnapshot();
+})
+           
+it('Check if user component renders only once', () => {
+    expect(shallow(<Users users={users}/>).length).toEqual(1);
 })
 // console.log(shallow(<Users users={users}/>)) 
